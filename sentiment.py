@@ -1,4 +1,4 @@
-import streamlit as  
+import streamlit as st
 from textblob import TextBlob  
 from streamlit_extras.let_it_rain import rain  
 
@@ -6,7 +6,7 @@ from streamlit_extras.let_it_rain import rain
 st.title("A Simple Sentiment Analysis WebApp.")
 
 # Text area for user input
-t = st.text_area("Please Enter your text")
+tt = st.text_area("Please Enter your text")
 
 # Button to analyze the sentiment
 if st.button("Analyze the Sentiment"):
